@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# NLTK data (downloaded automatically on first run)
+nltk_data/
+
+# Runtime-generated data — don't commit your own local test complaints
+complaints_store.json
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
